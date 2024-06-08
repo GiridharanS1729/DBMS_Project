@@ -1,0 +1,19 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "mscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mserver.js"
+  },
+  "keywords": [],
+  "author": "Giridharan S",
+  "license": "ISC",
+  "description": "visitor management system using mysql",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.3"
+  }
+}
